@@ -1,5 +1,8 @@
 package skamila.rentalapplication.domain.hotelroom;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 class SquareMeter {
 
     private final Double value;

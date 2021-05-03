@@ -1,12 +1,18 @@
 package skamila.rentalapplication.domain.hotelroom;
 
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+
+@Entity
 class Space {
 
     private final String name;
-    private final SquareMeter squareMeter;
 
-    Space(String name, SquareMeter squareMeter) {
+    @Embedded
+    private final SquareMeter size;
+
+    Space(String name, SquareMeter size) {
         this.name = name;
-        this.squareMeter = squareMeter;
+        this.size = size;
     }
 }
