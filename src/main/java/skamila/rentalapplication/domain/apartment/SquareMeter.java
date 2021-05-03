@@ -1,10 +1,10 @@
 package skamila.rentalapplication.domain.apartment;
 
-public class SquareMeter {
+class SquareMeter {
 
-    private final double value;
+    private final Double value;
 
-    public SquareMeter(double value) {
+    SquareMeter(Double value) {
         this.value = value;
     }
 }
