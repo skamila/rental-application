@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Apartment {
 
+    private String apartmentId;
     private final String ownerId;
     private final Address address;
     private final String description;
