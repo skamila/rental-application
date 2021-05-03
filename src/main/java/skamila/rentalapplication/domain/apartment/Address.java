@@ -1,5 +1,8 @@
 package skamila.rentalapplication.domain.apartment;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 class Address {
 
     private final String street;
